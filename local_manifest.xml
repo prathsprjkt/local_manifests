@@ -9,4 +9,8 @@
     <project path="vendor/realme-firmware/RM6785" name="crDroid-RM6785/proprietary_vendor_realme-firmware_RM6785" revision="13.0" remote="github" />
     <project path="device/mediatek/sepolicy_vndr" name="crDroid-RM6785/android_device_mediatek_sepolicy_vndr" revision="13.0" remote="github" />
     <project path="hardware/mediatek" name="crDroid-RM6785/android_hardware_mediatek" revision="13.0" remote="github" />
+
+    <!-- Vendor GAPPs -->
+    <remote name="gitlab" fetch="https://gitlab.com/" />
+    <project path="vendor/gapps" name="prathamdubey2005/android_vendor_gapps" revision="13.0" remote="gitlab" />
 </manifest>
